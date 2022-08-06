@@ -1,0 +1,1 @@
+SELECT a.uid, b.uname FROM (select * from user) a, (select * from user_details) b;
