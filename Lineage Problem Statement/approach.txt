@@ -1,0 +1,7 @@
+To find the lineage of a sql query, I have used the sqlparse library. The library is able to parse queries and provide tokens, identifiers, keywords, etc for processing.
+
+With the above approach, I was able to successfully generate the lineage for the simple example query which was provided in the document.
+
+However, this does not work well with the complex queries. The approach would be able to solve it for complex queries as well, but due to time constraints, I wasn't able to optimize it for all the parsing scenarios.
+
+Given a little more time, The approach taken should be able to solve the problem and extend out to all complexities of queries.

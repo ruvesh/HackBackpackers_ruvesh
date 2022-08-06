@@ -1,0 +1,8 @@
+The XML file contains folder tags. Under each folder tag, there are tags for source and target. The target's NAME attribute is linked to the source's DBDNAME attribute.
+
+In case of transformations, there are TRANSFORMATION tags under MAPPING Tags, where the TYPE attribute specifies the TRANSFORMATION TYPE.
+The transformations can be mapped with the INSTANCE Tags on the basis of TYPE = "Source Qualifier". This parsing and mapping would be able to reveal the transformations applied to each field.
+
+I have been able to find the source and target mappings programmatically. Due to time constraint, I wasn't able to complete the logic to find all the fields.
+
+This solution can be completed with the above approach with a little more time.
